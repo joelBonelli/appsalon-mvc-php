@@ -1,0 +1,23 @@
+{
+    "name": "joelb/app-salon_php_mvc_js_sass",
+    "description": "Proyecto PHP 8, MVVC, SQL, SASS, Gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "joelBonelli",
+            "email": "joel.bonelli@davinci.edu.ar"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
